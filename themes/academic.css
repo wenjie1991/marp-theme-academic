@@ -93,6 +93,14 @@ img[alt~="center"] {
   margin: 0 auto;
 }
 
+<style>
+img[alt~="top-right"] {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+</style>
+
 code {
   font-family: 'Source Code Pro', monospace;
 }
